@@ -9,7 +9,7 @@
 - Hasan Kemik
 
 ## Kullanım
-## Ka|Ve Stemmer
+## Türkçe Metin Özetleme ve Ka|Ve Stemmer
 ### Gerekli Kütüphaneler
 
 ```python
@@ -90,7 +90,7 @@ sim_scores = ds.calculate_similarity(source_doc, target_docs)
 - Hasan Kemik
 
 ## How to use
-## Ka|Ve Stemmer
+## Turkish Text Summarization and Ka|Ve Stemmer
 ### Necessary Libraries
 
 ```python
