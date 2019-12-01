@@ -52,16 +52,10 @@ kodunu kullanarak, metindeki kelime sayısının oranı kadar anahtar kelime ala
 ## Doc2Vec Method
 ### Gerekli Kütüphaneler
 ```python
-from gensim.corpora.wikicorpus import WikiCorpus
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
-from pprint import pprint
 import pandas as pd
-from nltk.tokenize import word_tokenize 
-import numpy as np
-from gensim.models import Doc2Vec
-import gensim
-from gensim.models.doc2vec import TaggedDocument
 import re
+import numpy as np
+import gensim
 ```
 Kütüphaneler eklendikten sonra, önceden eğitilmiş Word2Vec modeliyle[2] Döküman benzerliği class'ımızı çalıştırıyoruz. 
 
@@ -72,6 +66,9 @@ Sonrasında ise, elimizdeki dökümana en çok benzeyen 10 dökümanı sıralama
 ```python
 sim_scores = ds.calculate_similarity(source_doc, target_docs)
 ```
+
+## Flask Api
+
 ## Referanslar
 - [1] https://github.com/deeplearningturkiye/kelime_kok_ayirici
 - [2] https://github.com/akoksal/Turkish-Word2Vec
@@ -133,16 +130,10 @@ with the code above, you can get keywords according to the ratio of the word cou
 ## Doc2Vec Method
 ### Necessary Libraries
 ```python
-from gensim.corpora.wikicorpus import WikiCorpus
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
-from pprint import pprint
 import pandas as pd
-from nltk.tokenize import word_tokenize 
-import numpy as np
-from gensim.models import Doc2Vec
-import gensim
-from gensim.models.doc2vec import TaggedDocument
 import re
+import numpy as np
+import gensim
 ```
 After importing the libraries, using the pre-trained Word2Vec model for Turkish[2], we've created our similarity model.
 
@@ -153,6 +144,8 @@ After that, using the code below, we've listed the most similar 10 documents to 
 ```python
 sim_scores = ds.calculate_similarity(source_doc, target_docs)
 ```
+
+## Flask Api
 
 ## References
 - [1] https://github.com/deeplearningturkiye/kelime_kok_ayirici
