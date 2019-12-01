@@ -107,6 +107,11 @@ Kütüphaneleri kurduktan sonra, `python main.py`komutunu çalıştırarak, ür�
 - [3] https://github.com/Eruimdas/turkish_text_summarization
 - [4] https://tscorpus.com
 
+# Demo Video
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=s4OcbfcnD-c"><img src="https://img.youtube.com/vi/s4OcbfcnD-c/0.jpg" alt="Demo Video"></a>
+</div>
 
 ### ----------------------------------------------------------------------------------------------
 
@@ -215,3 +220,8 @@ In the `Examples` folder, in `hurriyetScraper` file, you can find our scraper fo
 - [3] https://github.com/Eruimdas/turkish_text_summarization
 - [4] https://tscorpus.com
 
+# Demo Video
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=s4OcbfcnD-c"><img src="https://img.youtube.com/vi/s4OcbfcnD-c/0.jpg" alt="Demo Video"></a>
+</div>
