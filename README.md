@@ -67,7 +67,11 @@ Sonrasında ise, elimizdeki dökümana en çok benzeyen 10 dökümanı sıralama
 sim_scores = ds.calculate_similarity(source_doc, target_docs)
 ```
 
-## Flask Api
+## Flask API
+
+## Veri Çekme / Oluşturma
+
+`Examples` klasöründe bulunan `hürriyetScraper` dosyasından hürriyet.com.tr sitesi üzerinde haberleri çekerek, kendi verisetinizi oluşturabilir, bu örneği kullanarak TsCorpus üzerinden elinizdeki veriyi parçalayacak bir scraper yazabilirsiniz.
 
 ## Referanslar
 - [1] https://github.com/deeplearningturkiye/kelime_kok_ayirici
@@ -145,7 +149,10 @@ After that, using the code below, we've listed the most similar 10 documents to 
 sim_scores = ds.calculate_similarity(source_doc, target_docs)
 ```
 
-## Flask Api
+## Flask API
+
+## Data Scraping
+In the `Examples` folder, in `hurriyetScraper` file, you can find our scraper for hurriyet.com.tr. From this file,you can scrape your own dataset, and by referencing it you can write your own TsCorpus scraper for further analysis.
 
 ## References
 - [1] https://github.com/deeplearningturkiye/kelime_kok_ayirici
