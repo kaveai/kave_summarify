@@ -2,11 +2,11 @@
 
 ## Takım Üyeleri
 
-- Yunus Emre Gündoğmuş
-- Feyza Zeynep Salam
-- Emre Yüksel
-- Büşra Gökmen
-- Hasan Kemik
+- Yunus Emre Gündoğmuş [@yemregundogmus](https://github.com/yemregundogmus)
+- Feyza Zeynep Salam [@feyzazeynep](https://github.com/feyzazeynep)
+- Emre Yüksel [@emreeyukseel](https://github.com/emreeyukseel)
+- Büşra Gökmen [@newsteps8](https://github.com/newsteps8)
+- Hasan Kemik [@eruimdas](https://github.com/Eruimdas)
 
 ## Kullanım
 ## Türkçe Metin Özetleme ve Ka|Ve Stemmer
@@ -112,11 +112,11 @@ Kütüphaneleri kurduktan sonra, `python main.py`komutunu çalıştırarak, ür�
 
 ## Team Members
 
-- Yunus Emre Gündoğmuş
-- Feyza Zeynep Salam
-- Emre Yüksel
-- Büşra Gökmen
-- Hasan Kemik
+- Yunus Emre Gündoğmuş [@yemregundogmus](https://github.com/yemregundogmus)
+- Feyza Zeynep Salam [@feyzazeynep](https://github.com/feyzazeynep)
+- Emre Yüksel [@emreeyukseel](https://github.com/emreeyukseel)
+- Büşra Gökmen [@newsteps8](https://github.com/newsteps8)
+- Hasan Kemik [@eruimdas](https://github.com/Eruimdas)
 
 ## How to use
 ## Turkish Text Summarization and Ka|Ve Stemmer
