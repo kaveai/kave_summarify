@@ -69,6 +69,34 @@ sim_scores = ds.calculate_similarity(source_doc, target_docs)
 
 ## Flask API
 
+Flask API'sini kullanabilmek için ilk önce bir sanal flask ortamı oluşturmanız gerekiyor. Sonrasında ise aşağıda belirtilen kütüphaneleri kurmanız gerekmekte:
+
+```python
+import pandas as pd
+import numpy as np
+from bs4 import BeautifulSoup as bs
+import requests 
+import datetime
+from nltk.corpus import stopwords
+import heapq
+from gensim.summarization import keywords
+from nltk import sent_tokenize
+from sklearn.metrics.pairwise import cosine_similarity
+import networkx as nx
+import re
+import json
+import pickle
+from keras.models import model_from_json
+from keras.models import load_model
+from gensim.models import KeyedVectors
+from gensim.corpora.wikicorpus import WikiCorpus
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+from gensim.models import Doc2Vec
+import tensorflow as tf
+```
+
+Kütüphaneleri kurduktan sonra, `python main.py`komutunu çalıştırarak, ürünü demo hâlinde deneyebilirsiniz.
+
 ## Veri Çekme / Oluşturma
 
 `Examples` klasöründe bulunan `hürriyetScraper` dosyasından hurriyet.com.tr sitesi üzerinde haberleri çekerek, kendi verisetinizi oluşturabilir, bu örneği kullanarak TsCorpus üzerinden elinizdeki veriyi parçalayacak bir scraper yazabilirsiniz.
@@ -150,6 +178,33 @@ sim_scores = ds.calculate_similarity(source_doc, target_docs)
 ```
 
 ## Flask API
+
+In order to use Flask, you first need to create a virtual flask environment in order to avoid any conflict. The libraries used are as follows:
+```python
+import pandas as pd
+import numpy as np
+from bs4 import BeautifulSoup as bs
+import requests 
+import datetime
+from nltk.corpus import stopwords
+import heapq
+from gensim.summarization import keywords
+from nltk import sent_tokenize
+from sklearn.metrics.pairwise import cosine_similarity
+import networkx as nx
+import re
+import json
+import pickle
+from keras.models import model_from_json
+from keras.models import load_model
+from gensim.models import KeyedVectors
+from gensim.corpora.wikicorpus import WikiCorpus
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+from gensim.models import Doc2Vec
+import tensorflow as tf
+```
+
+After downloading the libraries, you can use the live dome by running the code: `python main.py
 
 ## Data Scraping
 In the `Examples` folder, in `hurriyetScraper` file, you can find our scraper for hurriyet.com.tr. From this file,you can scrape your own dataset, and by referencing it you can write your own TsCorpus scraper for further analysis.
