@@ -71,7 +71,7 @@ sim_scores = ds.calculate_similarity(source_doc, target_docs)
 
 ## Veri Çekme / Oluşturma
 
-`Examples` klasöründe bulunan `hürriyetScraper` dosyasından hürriyet.com.tr sitesi üzerinde haberleri çekerek, kendi verisetinizi oluşturabilir, bu örneği kullanarak TsCorpus üzerinden elinizdeki veriyi parçalayacak bir scraper yazabilirsiniz.
+`Examples` klasöründe bulunan `hürriyetScraper` dosyasından hurriyet.com.tr sitesi üzerinde haberleri çekerek, kendi verisetinizi oluşturabilir, bu örneği kullanarak TsCorpus üzerinden elinizdeki veriyi parçalayacak bir scraper yazabilirsiniz.
 
 ## Referanslar
 - [1] https://github.com/deeplearningturkiye/kelime_kok_ayirici
