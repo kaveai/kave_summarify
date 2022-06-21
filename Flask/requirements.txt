@@ -29,7 +29,7 @@ Markdown==3.1.1
 MarkupSafe==1.1.1
 networkx==2.4
 nltk==3.4.5
-numpy==1.17.4
+numpy==1.22.0
 opt-einsum==3.1.0
 pandas==0.25.3
 protobuf==3.11.0
